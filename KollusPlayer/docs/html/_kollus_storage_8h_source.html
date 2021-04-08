@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: KollusStorage.h 소스 파일</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'검색');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="검색" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+      <li><a href="globals.html"><span>파일&#160;멤버</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">KollusStorage.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_kollus_storage_8h.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  KollusStorage.h</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  KollusSDK</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by Franky.Jung on 2014. 11. 28..</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2014년 Catenoid. All rights reserved.</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#import &lt;AVKit/AVKit.h&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_kollus_s_d_k_8h.html">KollusSDK.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_kollus_storage_delegate_8h.html">KollusStorageDelegate.h</a>&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">@class</span> <a class="code" href="interface_kollus_content.html">KollusContent</a>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html">   14</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_kollus_storage.html">KollusStorage</a> : NSObject</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a222484907f32858cc8d8ae9fcf335af5">   17</a></span>&#160;<span class="keyword">@property</span> (nonatomic, weak) id&lt;KollusStorageDelegate&gt; <a class="code" href="interface_kollus_storage.html#a222484907f32858cc8d8ae9fcf335af5">delegate</a>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#ad64b9ada3cad9080493046cdb4eb0925">   19</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy, readonly) NSString *<a class="code" href="interface_kollus_storage.html#ad64b9ada3cad9080493046cdb4eb0925">applicationVersion</a>;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a6d0a16ff3728db7eeb3dff5587306b5b">   21</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy, readonly) NSString *<a class="code" href="interface_kollus_storage.html#a6d0a16ff3728db7eeb3dff5587306b5b">applicationDeviceID</a>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a1d1e26912737db4946965c248b4765ad">   24</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *<a class="code" href="interface_kollus_storage.html#a1d1e26912737db4946965c248b4765ad">applicationKey</a>;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a3bff68ed0a3f2b4b2d26e74b375153ff">   26</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *<a class="code" href="interface_kollus_storage.html#a3bff68ed0a3f2b4b2d26e74b375153ff">applicationBundleID</a>;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a3097dc5f60c35d389dc1ed9ba3d4a100">   28</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *<a class="code" href="interface_kollus_storage.html#a3097dc5f60c35d389dc1ed9ba3d4a100">keychainGroup</a>;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a9eae1722e6c350127f4ab636dfc42963">   30</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSDate *<a class="code" href="interface_kollus_storage.html#a9eae1722e6c350127f4ab636dfc42963">applicationExpireDate</a>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a93989ff0a9d14a883092e7a59600a7d4">   33</a></span>&#160;<span class="keyword">@property</span> (nonatomic, unsafe_unretained, readonly) <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code" href="interface_kollus_storage.html#a93989ff0a9d14a883092e7a59600a7d4">storageSize</a>;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#ae91a63676783d2342101f4935c33a2a1">   35</a></span>&#160;<span class="keyword">@property</span> (nonatomic, unsafe_unretained, readonly) <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code" href="interface_kollus_storage.html#ae91a63676783d2342101f4935c33a2a1">cacheDataSize</a>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a204516156cc3f9782622dd9ad1e47aeb">   38</a></span>&#160;<span class="keyword">@property</span> (nonatomic) NSInteger <a class="code" href="interface_kollus_storage.html#a204516156cc3f9782622dd9ad1e47aeb">serverPort</a>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#abcff684f39b267e9d05d75acaeadd419">   41</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy) NSString *<a class="code" href="interface_kollus_storage.html#abcff684f39b267e9d05d75acaeadd419">extraDrmParam</a>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#aa14d4358445c0357778dc5ec7d1722b2">   44</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy, readonly) NSString *<a class="code" href="interface_kollus_storage.html#aa14d4358445c0357778dc5ec7d1722b2">appUserAgent</a>;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="interface_kollus_storage.html#a8ee44b5e174e294a58efb6df01757820">   46</a></span>&#160;<span class="keyword">@property</span> (nonatomic, copy, readonly) NSString *<a class="code" href="interface_kollus_storage.html#a8ee44b5e174e294a58efb6df01757820">deviceType</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;- (BOOL)startStorage:(NSError**)error;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;- (NSString *)loadContentURL:(NSString *)URL error:(NSError**)error;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;- (NSString*)checkContentURL:(NSString *)URL error:(NSError **)error;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;- (BOOL)downloadContent:(NSString *)mediaContentKey error:(NSError **)error;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;- (BOOL)removeContent:(NSString *)mediaContentKey error:(NSError **)error;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;- (BOOL)removeCacheWithError:(NSError **)error;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;- (BOOL)downloadCancelContent:(NSString *)mediaContentKey error:(NSError **)error;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;- (void)setNetworkTimeOut:(NSInteger)timeOut retry:(NSInteger)retryCount;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;- (void)updateDownloadDRMInfo:(BOOL)bAll;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;- (void)setCacheSize:(NSInteger)cacheSizeMB;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;- (void)setBackgroundDownload:(BOOL)bBackground;</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;- (NSMutableArray*)<a class="code" href="interface_kollus_storage.html#a7f7f5add0e28e5f6bfb57d87adfd3971">contents</a>;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;- (void)<a class="code" href="interface_kollus_storage.html#a630aa631a638ea081bb0ec71a6a5b002">sendStoredLms</a>;</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="keyword">@end</span></div><div class="ttc" id="interface_kollus_storage_html_a9eae1722e6c350127f4ab636dfc42963"><div class="ttname"><a href="interface_kollus_storage.html#a9eae1722e6c350127f4ab636dfc42963">KollusStorage::applicationExpireDate</a></div><div class="ttdeci">NSDate * applicationExpireDate</div><div class="ttdoc">KollusSDK 유효날짜(카테노이드에서 발급) </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:30</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a3bff68ed0a3f2b4b2d26e74b375153ff"><div class="ttname"><a href="interface_kollus_storage.html#a3bff68ed0a3f2b4b2d26e74b375153ff">KollusStorage::applicationBundleID</a></div><div class="ttdeci">NSString * applicationBundleID</div><div class="ttdoc">어플리케이션 Bundle ID(ex:com.yourcompany.applicationname) </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:26</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a222484907f32858cc8d8ae9fcf335af5"><div class="ttname"><a href="interface_kollus_storage.html#a222484907f32858cc8d8ae9fcf335af5">KollusStorage::delegate</a></div><div class="ttdeci">id&lt; KollusStorageDelegate &gt; delegate</div><div class="ttdoc">다운로드 상태정보 델리게이트 </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:17</div></div>
+<div class="ttc" id="interface_kollus_content_html"><div class="ttname"><a href="interface_kollus_content.html">KollusContent</a></div><div class="ttdef"><b>Definition:</b> KollusContent.h:11</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a1d1e26912737db4946965c248b4765ad"><div class="ttname"><a href="interface_kollus_storage.html#a1d1e26912737db4946965c248b4765ad">KollusStorage::applicationKey</a></div><div class="ttdeci">NSString * applicationKey</div><div class="ttdoc">KollusSDK 인증 키(카테노이드에서 발급) </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:24</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a8ee44b5e174e294a58efb6df01757820"><div class="ttname"><a href="interface_kollus_storage.html#a8ee44b5e174e294a58efb6df01757820">KollusStorage::deviceType</a></div><div class="ttdeci">NSString * deviceType</div><div class="ttdoc">디바이스 Type(kp-mobile, kp-tablet) </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:46</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a93989ff0a9d14a883092e7a59600a7d4"><div class="ttname"><a href="interface_kollus_storage.html#a93989ff0a9d14a883092e7a59600a7d4">KollusStorage::storageSize</a></div><div class="ttdeci">long long storageSize</div><div class="ttdoc">다운로드 컨텐츠 총 사이즈(bytes) </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:33</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a7f7f5add0e28e5f6bfb57d87adfd3971"><div class="ttname"><a href="interface_kollus_storage.html#a7f7f5add0e28e5f6bfb57d87adfd3971">-[KollusStorage contents]</a></div><div class="ttdeci">NSMutableArray * contents()</div></div>
+<div class="ttc" id="interface_kollus_storage_html"><div class="ttname"><a href="interface_kollus_storage.html">KollusStorage</a></div><div class="ttdef"><b>Definition:</b> KollusStorage.h:14</div></div>
+<div class="ttc" id="_kollus_storage_delegate_8h_html"><div class="ttname"><a href="_kollus_storage_delegate_8h.html">KollusStorageDelegate.h</a></div></div>
+<div class="ttc" id="interface_kollus_storage_html_ad64b9ada3cad9080493046cdb4eb0925"><div class="ttname"><a href="interface_kollus_storage.html#ad64b9ada3cad9080493046cdb4eb0925">KollusStorage::applicationVersion</a></div><div class="ttdeci">NSString * applicationVersion</div><div class="ttdoc">KollusSDK 버전 </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:19</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a6d0a16ff3728db7eeb3dff5587306b5b"><div class="ttname"><a href="interface_kollus_storage.html#a6d0a16ff3728db7eeb3dff5587306b5b">KollusStorage::applicationDeviceID</a></div><div class="ttdeci">NSString * applicationDeviceID</div><div class="ttdoc">KollusPlayer Device ID. </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:21</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a3097dc5f60c35d389dc1ed9ba3d4a100"><div class="ttname"><a href="interface_kollus_storage.html#a3097dc5f60c35d389dc1ed9ba3d4a100">KollusStorage::keychainGroup</a></div><div class="ttdeci">NSString * keychainGroup</div><div class="ttdoc">keychain 그룹(ex:com.yourcompany.shared) </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:28</div></div>
+<div class="ttc" id="interface_kollus_storage_html_abcff684f39b267e9d05d75acaeadd419"><div class="ttname"><a href="interface_kollus_storage.html#abcff684f39b267e9d05d75acaeadd419">KollusStorage::extraDrmParam</a></div><div class="ttdeci">NSString * extraDrmParam</div><div class="ttdoc">동적 drm 파라메터 </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:41</div></div>
+<div class="ttc" id="interface_kollus_storage_html_aa14d4358445c0357778dc5ec7d1722b2"><div class="ttname"><a href="interface_kollus_storage.html#aa14d4358445c0357778dc5ec7d1722b2">KollusStorage::appUserAgent</a></div><div class="ttdeci">NSString * appUserAgent</div><div class="ttdoc">UserAgent. </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:44</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a630aa631a638ea081bb0ec71a6a5b002"><div class="ttname"><a href="interface_kollus_storage.html#a630aa631a638ea081bb0ec71a6a5b002">-[KollusStorage sendStoredLms]</a></div><div class="ttdeci">void sendStoredLms()</div></div>
+<div class="ttc" id="interface_kollus_storage_html_a204516156cc3f9782622dd9ad1e47aeb"><div class="ttname"><a href="interface_kollus_storage.html#a204516156cc3f9782622dd9ad1e47aeb">KollusStorage::serverPort</a></div><div class="ttdeci">NSInteger serverPort</div><div class="ttdoc">Hybrid App에서 사용되는 port 번호 </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:38</div></div>
+<div class="ttc" id="interface_kollus_storage_html_ae91a63676783d2342101f4935c33a2a1"><div class="ttname"><a href="interface_kollus_storage.html#ae91a63676783d2342101f4935c33a2a1">KollusStorage::cacheDataSize</a></div><div class="ttdeci">long long cacheDataSize</div><div class="ttdoc">캐시데이터 총 사이즈(bytes) </div><div class="ttdef"><b>Definition:</b> KollusStorage.h:35</div></div>
+<div class="ttc" id="_kollus_s_d_k_8h_html"><div class="ttname"><a href="_kollus_s_d_k_8h.html">KollusSDK.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+다음에 의해 생성됨 :  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

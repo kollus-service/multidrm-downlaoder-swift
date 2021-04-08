@@ -10,20 +10,67 @@
 		C5892306261B506600352F88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5892305261B506600352F88 /* AppDelegate.swift */; };
 		C5892308261B506600352F88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5892307261B506600352F88 /* SceneDelegate.swift */; };
 		C589230A261B506600352F88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5892309261B506600352F88 /* ViewController.swift */; };
-		C589230D261B506600352F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C589230B261B506600352F88 /* Main.storyboard */; };
 		C589230F261B506A00352F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C589230E261B506A00352F88 /* Assets.xcassets */; };
 		C5892312261B506A00352F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5892310261B506A00352F88 /* LaunchScreen.storyboard */; };
+		C5892320261B636900352F88 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C589231F261B636900352F88 /* ContentCell.swift */; };
+		C5892328261C8DC800352F88 /* libKollusSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892327261C8DC800352F88 /* libKollusSDK.a */; };
+		C589232B261C8DD800352F88 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C589232A261C8DD800352F88 /* libsqlite3.0.tbd */; };
+		C589232E261C8DE500352F88 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C589232D261C8DE500352F88 /* libiconv.tbd */; };
+		C5892331261C8DFA00352F88 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892330261C8DFA00352F88 /* CoreMedia.framework */; };
+		C5892333261C8E0100352F88 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892332261C8E0100352F88 /* AVFoundation.framework */; };
+		C5892335261C8E0900352F88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892334261C8E0900352F88 /* QuartzCore.framework */; };
+		C5892337261C8E1600352F88 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892336261C8E1600352F88 /* AudioToolbox.framework */; };
+		C5892339261C8E2000352F88 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892338261C8E2000352F88 /* OpenGLES.framework */; };
+		C589233B261C8E2A00352F88 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C589233A261C8E2A00352F88 /* Security.framework */; };
+		C589233D261C8E3300352F88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C589233C261C8E3300352F88 /* SystemConfiguration.framework */; };
+		C589233F261C8E3A00352F88 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C589233E261C8E3A00352F88 /* MediaPlayer.framework */; };
+		C5892341261C8E4200352F88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892340261C8E4200352F88 /* CoreGraphics.framework */; };
+		C5892343261C8E4A00352F88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892342261C8E4A00352F88 /* UIKit.framework */; };
+		C5892345261C8E5400352F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5892344261C8E5400352F88 /* Foundation.framework */; };
+		C589234D261C8EC800352F88 /* PallyConFPSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C589234A261C8EA900352F88 /* PallyConFPSSDK.framework */; };
+		C589234E261C8EC800352F88 /* PallyConFPSSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C589234A261C8EA900352F88 /* PallyConFPSSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C589234F261C8EC800352F88 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C589234E261C8EC800352F88 /* PallyConFPSSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C5892302261B506600352F88 /* kollus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kollus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5892305261B506600352F88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5892307261B506600352F88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C5892309261B506600352F88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C589230C261B506600352F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C589230E261B506A00352F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5892311261B506A00352F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5892313261B506A00352F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C589231F261B636900352F88 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		C5892327261C8DC800352F88 /* libKollusSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKollusSDK.a; path = KollusPlayer/KollusSDK/lib/libKollusSDK.a; sourceTree = "<group>"; };
+		C589232A261C8DD800352F88 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C589232D261C8DE500352F88 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		C5892330261C8DFA00352F88 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C5892332261C8E0100352F88 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C5892334261C8E0900352F88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C5892336261C8E1600352F88 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C5892338261C8E2000352F88 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C589233A261C8E2A00352F88 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C589233C261C8E3300352F88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C589233E261C8E3A00352F88 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C5892340261C8E4200352F88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5892342261C8E4A00352F88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5892344261C8E5400352F88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5892346261C8E9000352F88 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; path = ..; sourceTree = "<group>"; };
+		C589234A261C8EA900352F88 /* PallyConFPSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PallyConFPSSDK.framework; path = KollusPlayer/PallyConFPSSDK.framework; sourceTree = "<group>"; };
+		C5892350261DE45A00352F88 /* kollus-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "kollus-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +78,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5892345261C8E5400352F88 /* Foundation.framework in Frameworks */,
+				C5892343261C8E4A00352F88 /* UIKit.framework in Frameworks */,
+				C5892341261C8E4200352F88 /* CoreGraphics.framework in Frameworks */,
+				C589233F261C8E3A00352F88 /* MediaPlayer.framework in Frameworks */,
+				C589233D261C8E3300352F88 /* SystemConfiguration.framework in Frameworks */,
+				C589233B261C8E2A00352F88 /* Security.framework in Frameworks */,
+				C5892339261C8E2000352F88 /* OpenGLES.framework in Frameworks */,
+				C5892337261C8E1600352F88 /* AudioToolbox.framework in Frameworks */,
+				C5892335261C8E0900352F88 /* QuartzCore.framework in Frameworks */,
+				C5892333261C8E0100352F88 /* AVFoundation.framework in Frameworks */,
+				C5892331261C8DFA00352F88 /* CoreMedia.framework in Frameworks */,
+				C589234D261C8EC800352F88 /* PallyConFPSSDK.framework in Frameworks */,
+				C589232E261C8DE500352F88 /* libiconv.tbd in Frameworks */,
+				C589232B261C8DD800352F88 /* libsqlite3.0.tbd in Frameworks */,
+				C5892328261C8DC800352F88 /* libKollusSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +102,10 @@
 		C58922F9261B506600352F88 = {
 			isa = PBXGroup;
 			children = (
+				C5892350261DE45A00352F88 /* kollus-Bridging-Header.h */,
 				C5892304261B506600352F88 /* kollus */,
 				C5892303261B506600352F88 /* Products */,
+				C5892326261C8DC800352F88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +123,35 @@
 				C5892305261B506600352F88 /* AppDelegate.swift */,
 				C5892307261B506600352F88 /* SceneDelegate.swift */,
 				C5892309261B506600352F88 /* ViewController.swift */,
-				C589230B261B506600352F88 /* Main.storyboard */,
 				C589230E261B506A00352F88 /* Assets.xcassets */,
 				C5892310261B506A00352F88 /* LaunchScreen.storyboard */,
 				C5892313261B506A00352F88 /* Info.plist */,
+				C589231F261B636900352F88 /* ContentCell.swift */,
 			);
 			path = kollus;
+			sourceTree = "<group>";
+		};
+		C5892326261C8DC800352F88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C589234A261C8EA900352F88 /* PallyConFPSSDK.framework */,
+				C5892346261C8E9000352F88 /* ios */,
+				C5892344261C8E5400352F88 /* Foundation.framework */,
+				C5892342261C8E4A00352F88 /* UIKit.framework */,
+				C5892340261C8E4200352F88 /* CoreGraphics.framework */,
+				C589233E261C8E3A00352F88 /* MediaPlayer.framework */,
+				C589233C261C8E3300352F88 /* SystemConfiguration.framework */,
+				C589233A261C8E2A00352F88 /* Security.framework */,
+				C5892338261C8E2000352F88 /* OpenGLES.framework */,
+				C5892336261C8E1600352F88 /* AudioToolbox.framework */,
+				C5892334261C8E0900352F88 /* QuartzCore.framework */,
+				C5892332261C8E0100352F88 /* AVFoundation.framework */,
+				C5892330261C8DFA00352F88 /* CoreMedia.framework */,
+				C589232D261C8DE500352F88 /* libiconv.tbd */,
+				C589232A261C8DD800352F88 /* libsqlite3.0.tbd */,
+				C5892327261C8DC800352F88 /* libKollusSDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +164,7 @@
 				C58922FE261B506600352F88 /* Sources */,
 				C58922FF261B506600352F88 /* Frameworks */,
 				C5892300261B506600352F88 /* Resources */,
+				C589234F261C8EC800352F88 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,7 +214,6 @@
 			files = (
 				C5892312261B506A00352F88 /* LaunchScreen.storyboard in Resources */,
 				C589230F261B506A00352F88 /* Assets.xcassets in Resources */,
-				C589230D261B506600352F88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,20 +227,13 @@
 				C589230A261B506600352F88 /* ViewController.swift in Sources */,
 				C5892306261B506600352F88 /* AppDelegate.swift in Sources */,
 				C5892308261B506600352F88 /* SceneDelegate.swift in Sources */,
+				C5892320261B636900352F88 /* ContentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C589230B261B506600352F88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C589230C261B506600352F88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C5892310261B506A00352F88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,13 +368,28 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D87JZ6F857;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KollusPlayer",
+				);
+				HEADER_SEARCH_PATHS = /Users/hyeond/GoHomeDaddy/ios/kollus/KollusPlayer/KollusSDK/include/KollusSDK;
 				INFOPLIST_FILE = kollus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KollusPlayer/KollusSDK/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.se.kollus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kollus-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,13 +402,28 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D87JZ6F857;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KollusPlayer",
+				);
+				HEADER_SEARCH_PATHS = /Users/hyeond/GoHomeDaddy/ios/kollus/KollusPlayer/KollusSDK/include/KollusSDK;
 				INFOPLIST_FILE = kollus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KollusPlayer/KollusSDK/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.se.kollus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kollus-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

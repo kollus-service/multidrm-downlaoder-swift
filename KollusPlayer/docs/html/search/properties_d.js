@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['scalingmode',['scalingMode',['../interface_kollus_player_view.html#ab55e4df66d81952910be98a99ceb4982',1,'KollusPlayerView']]],
+  ['screenconnectenabled',['screenConnectEnabled',['../interface_kollus_player_view.html#a8bdd464bc82f40a067c5f872acdafe49',1,'KollusPlayerView']]],
+  ['seekable',['seekable',['../interface_kollus_player_view.html#a60ab6455ae754fc38795e0e748592168',1,'KollusPlayerView']]],
+  ['serverport',['serverPort',['../interface_kollus_storage.html#a204516156cc3f9782622dd9ad1e47aeb',1,'KollusStorage']]],
+  ['snapshot',['snapshot',['../interface_kollus_content.html#aa8f6b231e664691b032563f1e460535b',1,'KollusContent']]],
+  ['starttime',['startTime',['../interface_k_p_section.html#af1ad2179f81e27b3b7a64097e9e23b55',1,'KPSection']]],
+  ['storage',['storage',['../interface_kollus_player_view.html#a3cb977660449361ca25b08a63e92380f',1,'KollusPlayerView']]],
+  ['storagesize',['storageSize',['../interface_kollus_storage.html#a93989ff0a9d14a883092e7a59600a7d4',1,'KollusStorage']]],
+  ['strcaptionstyle',['strCaptionStyle',['../interface_kollus_player_view.html#a75a8d603bcf8ab1f26e1930bd049d878',1,'KollusPlayerView']]],
+  ['streaminfolist',['streamInfoList',['../interface_kollus_player_view.html#ae305234949b0178bac7ac606235ac5ff',1,'KollusPlayerView']]],
+  ['strlanguage',['strLanguage',['../interface_sub_title_info.html#a268bf7d395d461c1329978344071fa1c',1,'SubTitleInfo']]],
+  ['strname',['strName',['../interface_sub_title_info.html#a20d378210c62387815598dbd0d737f51',1,'SubTitleInfo']]],
+  ['strurl',['strUrl',['../interface_sub_title_info.html#a272ca43ae375b7b85b1bcfaac3626f9d',1,'SubTitleInfo']]],
+  ['strvideowatermark',['strVideoWaterMark',['../interface_kollus_player_view.html#aaf740089bf071227fdee658f1f1b131b',1,'KollusPlayerView']]],
+  ['strvideowatermarkfontcolor',['strVideoWaterMarkFontColor',['../interface_kollus_player_view.html#a1bdd45a1a9424ed4dd55308f9886c34c',1,'KollusPlayerView']]],
+  ['synopsis',['synopsis',['../interface_kollus_content.html#a7c9187973b1da06f5f197df9da5da225',1,'KollusContent']]]
+];
